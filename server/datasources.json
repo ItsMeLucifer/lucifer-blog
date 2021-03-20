@@ -1,0 +1,16 @@
+{
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "blogdatabase",
+    "name": "db",
+    "connector": "mongodb"
+  },
+  "myFile": {
+    "name": "myFile",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/storage",
+    "nameConflict": "makeUnique"
+  }
+}

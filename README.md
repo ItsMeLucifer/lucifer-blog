@@ -3,7 +3,6 @@
 A project created as part of learning Full-Stack Javascript in practice. <br/>
 Technologies/Tools used in the project:
 - React
-- Node.js
 - Redux
 - Loopback.js
 - Mongodb

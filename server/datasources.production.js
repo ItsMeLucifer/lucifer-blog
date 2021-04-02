@@ -8,5 +8,12 @@ module.exports = {
         user: process.env.DB_USER,
         password: process.env.DB_PASSWORD,
         database: 'BlogDatabase',
+    },
+    myFile: {
+        name: "myFile",
+        connector: "loopback-component-storage",
+        provider: "filesystem",
+        root: "./server/storage",
+        nameConflict: "makeUnique"
     }
 }
